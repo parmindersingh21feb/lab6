@@ -47,7 +47,7 @@ assumptions = [
 goal = read_expr(
     # Scrooge is not a child.
     """
-    -child(Scrooge,x)
+    -child(Scrooge)
     """
 )
 
